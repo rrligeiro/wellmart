@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const Footer = styled.div`
+export const Footer = styled.footer`
   background-color: #818180;
-  padding: 0.5rem 0 0.5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 `
 export const FooterSubscription = styled.section`
   margin-bottom: 2px;
