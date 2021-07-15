@@ -3,32 +3,21 @@ import { Link } from 'react-router-dom';
 
 export const Navbar = styled.nav`
   background: #bf2c00ff;
-  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
 `
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
-  z-index: 1;
   width: 100%;
-  max-width: 1300px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2px;
-  padding-left: 2px;
+  padding: 3px 20px;
+  margin: 3px;
 `
 export const NavbarItem = styled.div`
   color: #fff;
   display: flex;
   align-items: center;
-  text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
 `
@@ -45,6 +34,17 @@ export const NavbarLi = styled.li`
   border-bottom: 2px solid transparent;
 `
 
+export const NavbarLinks = styled(Link)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-family: Courier New;
+  font-size: 18px;
+`
+
 export const LinkNavbarLogo = styled(Link)`
   color: #fff;
   justify-self: start;
@@ -53,19 +53,11 @@ export const LinkNavbarLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-family: Courier New;
 `
 
-export const NavbarLinks = styled(Link)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
-`
 export const NavbarLogo = styled.img`
   width: auto;
   height: auto;
-  margin: 0;
-  padding: 0;
+  padding: 4px;
 `
