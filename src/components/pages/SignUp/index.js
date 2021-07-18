@@ -1,11 +1,10 @@
 import React from 'react';
+import * as S from './styled';
 
 export default function SignUp(){
   return(
-    <div>
-      <h1>
-        CADASTRO!
-      </h1>
-    </div>
+    <S.SignUpBody>
+      <h1>Cadastro</h1>
+    </S.SignUpBody>
   )
 }

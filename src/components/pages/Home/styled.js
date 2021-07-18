@@ -2,6 +2,6 @@ import styled from "styled-components";
 
 export const HomeBody = styled.div`
   color: #fff;
-  background-color: #000;
+  background-image: url(images/background.webp);
   height: 100vh;
 `

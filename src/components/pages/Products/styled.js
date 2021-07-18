@@ -20,7 +20,7 @@ export const ProductItem = styled(Link)`
   border-radius: 14px;
   width: 250px;
   height: 300px;
-  margin: 5px;
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
