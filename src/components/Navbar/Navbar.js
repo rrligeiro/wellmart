@@ -6,7 +6,7 @@ export default function Navbar(){
     <S.Navbar>
       <S.NavbarContainer>
         <S.LinkNavbarLogo to='/'>
-          <S.NavbarLogo src='logo.png'></S.NavbarLogo>
+          <S.NavbarLogo src='images/logo.png'></S.NavbarLogo>
            Wellmart
         </S.LinkNavbarLogo>
         <S.NavbarUl>

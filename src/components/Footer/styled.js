@@ -7,9 +7,8 @@ export const Footer = styled.footer`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  bottom: 0;
-  position: fixed;
   width: 100%;
+  flex-wrap: wrap;
 `
 export const FooterSubscription = styled.section`
   margin-bottom: 2px;

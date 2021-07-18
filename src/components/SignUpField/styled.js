@@ -5,6 +5,7 @@ export const SignUpFieldContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+	margin: 10px;
 `
 
 export const InputButtonContainer = styled.div`
@@ -15,10 +16,16 @@ export const InputButtonContainer = styled.div`
 `
 
 export const Input = styled.input`
-	border: 1px solid #ddd;
-	height: 1.5rem;
-	padding: 0 .5rem;
-	border-radius: .25rem 0 0 .25rem;
+	padding: 7px;
+	font-size: 19px;
+	border-width: 6px;
+	border-color: #bf2c00ff;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-style: ridge;
+	border-radius: 23px;
+	box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+	text-shadow: 0px 0px 5px rgba(66,66,66,.75);
 
 	&:focus,
 	&active {
@@ -28,16 +35,31 @@ export const Input = styled.input`
 `
 
 export const Button = styled.button`
-	border: 1px solid #fff;
-	height: 1.5rem;
-	background: #fff;
-	color: #000;
-	border-radius: 0 .25rem .25rem 0;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	margin: 0px 10px;
+	
+	&:hover {
+		background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+		background-color:#e9e9e9;
+	}
 
 	&:focus,
 	&active {
-		outline: none;
-		box-shadow: none;
+		position:relative;
+		top:1px;
 	}
 `
 
@@ -46,4 +68,6 @@ export const ReponseMensageContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+	margin-top: 10px;
+	font-size: 20px;
 `
