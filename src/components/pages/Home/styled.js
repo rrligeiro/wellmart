@@ -3,19 +3,18 @@ import styled from "styled-components";
 export const HomeBody = styled.div`
   color: #fff;
   background-image: url(images/background.webp);
-  height: 100%;
-`
-export const HomeContent = styled.div`
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 50px;
+  width: 100vw;
+  height: 100%;
 `
+
 export const PromotionContainer = styled.div`
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -23,7 +22,6 @@ export const PromotionContainer = styled.div`
 `
 export const BlackFridayImg = styled.img`
   width: 600px;
-  height: auto;
   padding: 4px;
 `
 
@@ -35,7 +33,6 @@ export const SignUpContainer = styled.div`
   justify-content: space-around;
   margin: 10px;
   width: 500px;
-  height: auto;
 `
 export const SignUpPromotionText = styled.section`
   font-family: "Comic Sans MS", cursive, sans-serif;

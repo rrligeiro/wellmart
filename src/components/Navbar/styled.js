@@ -7,6 +7,7 @@ export const Navbar = styled.nav`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 `
 export const NavbarContainer = styled.div`
   display: flex;

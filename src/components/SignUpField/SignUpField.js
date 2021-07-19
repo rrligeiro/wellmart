@@ -22,7 +22,7 @@ export default function SignUpField(){
   return(
     <S.SignUpFieldContainer>
       <S.InputButtonContainer>
-        <S.Input placeholder= "usuario@email.com.br" value={userEmail} onChange={e => setUserEmail(e.target.value)}/>
+        <S.Input placeholder= "Digite seu e-mail" value={userEmail} onChange={e => setUserEmail(e.target.value)}/>
         <S.Button type="button" onClick={getEmail} >Cadastre-se</S.Button>
       </S.InputButtonContainer>
       {(() => {
